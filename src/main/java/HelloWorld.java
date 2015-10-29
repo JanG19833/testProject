@@ -4,7 +4,10 @@
 public class HelloWorld {
     public static void main (String[] args)
     {
-        // Ausgabe Hello World!
-        System.out.println("Hello World!");
+        System.out.println(testString());
+
+    }
+    public static String testString(){
+        return "This is a test";
     }
 }
