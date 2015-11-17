@@ -1,8 +1,10 @@
+
+
+
 import org.junit.Before;
 import org.junit.Test;
 
-import static org.junit.Assert.assertEquals;
-import static org.junit.Assert.assertNotEquals;
+import org.junit.Assert;
 
 
 public class HelloWorldTest {
@@ -15,11 +17,11 @@ public class HelloWorldTest {
 
     @Test
     public void testString(){
-        assertEquals(helloWorld.testString(),"This is a test");
+        Assert.assertEquals(helloWorld.testString(),"This is a test");
     }
     @Test
     public void notEqualsString(){
-        assertNotEquals(helloWorld.testString(), "This is a tes");
+        Assert.assertNotEquals(helloWorld.testString(), "This is a tes");
     }
 
 
