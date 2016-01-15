@@ -5,7 +5,7 @@ script: mvn verify
 
 deploy:
   provider: releases
-  api_key:  ad91fd176f75f1182070e26b936614dd9eda926e
+  api_key:  d0a61930e13a912f69b10e5c804c67c81fd8236
   file: target/*.jar
   skip_cleanup: true
   on:
