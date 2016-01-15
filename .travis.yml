@@ -2,3 +2,9 @@ language: java8
 jdk:
   - oraclejdk8
 script: mvn verify
+
+deploy:
+  provider: cloudcontrol
+  email: jan.gertgens@novatec-gmbh.de
+  password: rambo123ja
+  deployment: testProject
