@@ -6,4 +6,4 @@ script: mvn verify
 deploy:
   provider: heroku
   api_key: 05ef6212-d6d0-496c-9984-36f8643b0a41
-  app: test-project
+  app: test-project1234
