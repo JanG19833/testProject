@@ -4,7 +4,6 @@ jdk:
 script: mvn verify
 
 deploy:
-  provider: cloudcontrol
-  email: jan.gertgens@novatec-gmbh.de
-  password: rambo123ja
-  deployment: testProject
+  provider: heroku
+  api_key: 05ef6212-d6d0-496c-9984-36f8643b0a41
+  app: test-project
